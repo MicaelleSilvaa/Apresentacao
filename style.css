@@ -7,12 +7,14 @@ body {
 
 .layout {
     width: 900px; 
-    height: 1200px;
+    height: 1300px;
     background-color: #ffffff;
     border-radius: 2%; 
     box-shadow: -1px 2px 26px 0px rgba(0,0,0,0.75);
     -webkit-box-shadow: -1px 2px 26px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: -1px 2px 26px 0px rgba(0,0,0,0.75);
+    position: relative;
+    
 
 }
 
@@ -31,7 +33,28 @@ h3, h2, h1{
 .foto{
     position: absolute;
     top: 20px;
-    right: 350px;
+    right: 70px;
     border-radius: 10px;
 }
+
+.github {
+    position: absolute;
+    bottom: 20px; 
+    left: 450px;
+    padding: 40px;
+}
+
+.linkedin {
+    position: absolute;
+    bottom: 20px; 
+    left: 300px; 
+    padding: 40px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
 
