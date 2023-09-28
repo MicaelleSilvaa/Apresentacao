@@ -53,6 +53,11 @@ h3, h2, h1{
     align-items: center;
 }
 
+button{
+    position:relative;
+    font-family: 'Montserrat', sans-serif;
+    left: 700px;
+}
 
 
 
